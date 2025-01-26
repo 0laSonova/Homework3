@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration in Git</title>
+    <style>
+        body{
+        width: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        }
+        .register{
+        width: 500px;
+        background-color: #fafafa;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center; 
+        }
+        a {
+        text-decoration: unset;
+        color: black;
+        }
+        .registration{
+        box-sizing: border-box;
+        display: block;
+        justify-content: space-between;;
+        flex-wrap: wrap;
+        }
+        div.login_reg {
+        width: 157px;
+        height: 20px;
+        margin: 30px 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        }
+        .login_reg h3 a{
+        cursor: pointer;
+        }
+        .login_reg .reg{
+        color: #46A358;
+        }
+        .registration input {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;       
+        border: 1px solid #eaeaea;
+        border-radius: 5px;
+        height: 40px;
+        margin-bottom: 20px;
+        display: inline-block;
+        width: 300px;
+        }
+        .block_input{
+            display: flex;
+        flex-wrap: wrap;
+        justify-content: center;   
+        }
+        .button_register {
+        font-weight: bold;
+        background: #46A358;
+        color: #fff;
+        border: 1px solid #46A358;
+        padding: 10px;
+        text-align: center;
+        font-size: 16px;
+        border-radius: 5px;
+        cursor: pointer;
+        }
+        .button_register:hover {
+        background: #fff;
+        color: #46A358;
+        }
+        .block_social-login{
+            display: flex;
+        flex-wrap: wrap;
+        justify-content: center;    
+        }
+        .social-login {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 300px;
+        height: 40px;
+        border: 1px solid #eaeaea;
+        text-decoration: none;
+        gap: 10px;
+        transition: 0.2s;
+        background-color: #fff;
+        cursor: pointer;
+        margin: 10px 0 10px 0;
+        border-radius: 5px;
+        }
+        .social-login:hover {
+        box-shadow: 4px 4px 4px #46A358;;
+        }
+        .reg_with {
+        text-align: center;
+        position: relative;
+        }
+        .reg_with h4 {
+        background-color: #fafafa;
+        display: inline-block;
+        padding: 0 18px;
+        position: relative;
+        }
+        .reg_with:before {
+        content: '';
+        position: absolute;
+        top: 50%;
+        left: 0;        
+        width: 100%;
+        height: 2px;
+        background: #b1b1b1;
+        }
+        hr{
+        background-color: #46A358;
+        height: 10px;
+        margin-bottom: 0px;
+        border-bottom-width: 0px;
+        }
+    </style>
+</head>
+<body>
+    <div class="register">
+        <div class="login_reg">
+            <h3><a href="#">Login</a></h3>
+            <h3>|</h3>
+            <h3><a href="#" class="reg">Register in Git</a></h3>
+        </div>
+        <div class="registration">
+            <div class="block_input">
+                <h4>Enter your email and password to register.</h4>
+                <input type="text" name="username" placeholder="Username">
+                <input type="email" name="email" placeholder="Enter your email address">
+                <input type="password" name="password" placeholder="Password">
+                <input type="password" name="password" placeholder="Confirm password">
+                <input type="submit" value="Register" class="button_register">
+            </div>
+            <div class="reg_with">
+                <h4>Or register with</h4>
+            </div>
+            <div class="block_social-login">
+                <button type="submit" class="social-login" action="https://accounts.google.com/InteractiveLogin" target="_blank">
+                        <img src="image/google.png" alt="googlelogo" width="20">
+                        <span>Continue with Google</span>
+                </button> 
+                <button type="submit" class="social-login"action="https://www.facebook.com/login/" target="_blank">
+                    <img src="image/facebook.png" alt="acebooklogo" width="20">
+                    <span>Continue with Facebook</span>
+                </button>
+            </div>
+        </div>
+        <hr>
+    </div>
+</body>
+</html>
