@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration in</title>
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <div class="register">
+        <div class="login_width">
+            <div class="login_reg">
+                <h3><a href="#">Login</a></h3>
+                <h3>|</h3>
+                <h3><a href="#" class="reg">Register</a></h3>
+        </div>
+        </div>
+        <div class="enter">
+            <h4>Enter your email and password to register.</h4>
+        </div>
+        <div class="registration">
+            <div class="block_input">
+                <form>
+                    <input type="text" name="username" placeholder="Username">
+                    <input type="email" name="email" placeholder="Enter your email address">
+                    <input type="password" name="password" placeholder="Password">
+                    <input type="password" name="password" placeholder="Confirm password">
+                    <input type="submit" value="Register" class="button_register">
+                </form>
+            </div>
+            <div class="reg_with">
+                <h4>Or register with</h4>
+            </div>
+            <div class="block_social-login">
+                <form action="https://accounts.google.com/InteractiveLogin" target="_blank">
+                    <button type="submit" class="social-login"  >
+                            <img src="image/google.png" alt="googlelogo" width="20">
+                            <span>Continue with Google</span>
+                    </button> 
+                </form>
+                <form action="https://www.facebook.com/login/" target="_blank">
+                    <button type="submit" class="social-login" >
+                        <img src="image/facebook.png" alt="acebooklogo" width="20">
+                        <span>Continue with Facebook</span>
+                    </button>
+                </form>
+            </div>
+        </div>
+        <hr id="hr-id">
+    </div>
+</body>
+</html>
